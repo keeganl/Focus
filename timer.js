@@ -12,9 +12,7 @@ function startTimer(duration, display) {
     if (--timer < 0) {
       timer = duration;
     }
-    endTimer(display);
   }, 1000);
-  
 }
 
 function endTimer(display) {
