@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./styles.css">
-
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
 
@@ -14,12 +13,13 @@
 <body>
   <h1 id="title">FOCUS</h1>
   <div class="clock">
-    <h1>00 : 00 : 00</h1>
+    <h1 id="display">25:00</h1>
   </div>
   <div class="container">
-    <div class="controls">1</div>
-    <div class="controls">2</div>
-    <div class="controls">3</div>
+    <div id="start" onclick="pomodoroStart()" class="controls"><h4>Start</h4></div>
+    <div id="pause" class="controls"><h4>Pause</h4></div>
+    <div id="stop"  class="controls"><h4>Stop</h4></div>
   </div>
+  <script src="timer.js"></script>
 </body>
 </html>
