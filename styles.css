@@ -17,10 +17,21 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: .5em;
   font-size: 5vw;
   margin-bottom: 10%;
+}
+
+.min1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.min1 h1 {
+  text-align: center;
 }
 
 .container {

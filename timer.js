@@ -1,3 +1,9 @@
+/*
+  Keegan Lawley
+  focus
+  timer.js
+  -*-- utf-8 --*-
+*/
 var up1 = document.querySelector("#up1");
 var up2 = document.querySelector("#up2");
 var up3 = document.querySelector("#up3");
